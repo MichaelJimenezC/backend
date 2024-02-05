@@ -4,8 +4,8 @@ const datosModel = require('./models/datos')
 
 
 
-    const sequelize = new Sequelize('railway', 'root', 'fEBgCcD5B5aeFaa6fe-EgaCCc6F-24C2', {
-       host: 'roundhouse.proxy.rlwy.net',
+    const sequelize = new Sequelize('railway', 'root', 'dG-hCGfgb-DBA6FC3B-gg53F2fBfHA4B', {
+       host: 'viaduct.proxy.rlwy.net',
       dialect: 'mysql' ,
       define: { 
           timestamps: false
