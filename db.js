@@ -4,7 +4,7 @@ const datosModel = require('./models/datos')
 
 
 
-    const sequelize = new Sequelize('proyecto_uam_db', 'root', 'fEBgCcD5B5aeFaa6fe-EgaCCc6F-24C2', {
+    const sequelize = new Sequelize('railway', 'root', 'fEBgCcD5B5aeFaa6fe-EgaCCc6F-24C2', {
        host: 'roundhouse.proxy.rlwy.net',
       dialect: 'mysql' ,
       define: { 
