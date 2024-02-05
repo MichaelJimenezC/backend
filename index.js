@@ -1,11 +1,11 @@
 'use strict'
 var app = require('./app');
-var port = 3902;//puerto para aplicacion
+const PORT = process.env.PORT || 3902;
 
 
 
 
 
-    app.listen(process.env.PORT || port);
-
-    console.log("cargando servidor listo", port);
+app.listen(PORT, '0.0.0.0', () => {
+    console.log(`Servidor escuchando en el puerto ${PORT}`);
+  });
